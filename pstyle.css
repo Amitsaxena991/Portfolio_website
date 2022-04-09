@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Code+Pro:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: lightgrey;
+    font-family: 'Libre Baskerville', serif;
+    /* width: 434px; */
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 40px;
+
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: bisque; */
+    width: 90vw;
+    padding: 23px;
+}
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /* background-color: rgb(92, 129, 92); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    width: 350px;
+    height: 58vh;
+
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 3em;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.about{
+    font-size: 2.5em;
+}
+
+.buttons{
+    margin-top: 34px;
+    font-size: 10px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: antiquewhite;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    background-color: antiquewhite;
+    color:darkblue;
+}
+
+.moreabout{
+    font-size: 1.5em;
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 23px;
+}
+
+
+
+.contactform{
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 100px;
+    padding-left: 150px;
+    margin-left: 50px;
+    
+}
+.contactform h1{
+    font-family: 'Libre Baskerville', serif;
+    /* text-align: center; */
+    margin-bottom: 20px;
+
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    padding: 3;
+    margin: 6px 0 0 0;
+}
+
+.form-control1{
+    height: 100px;
+
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: darkblue;
+    margin: 0 5px;
+}
+
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.services{
+    margin-left: 500px;
+    padding-top: 100px;
+}
+.sh1{
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.slist li{
+    font-size: 30px;
+    padding-top:  20px;
+}
+
+
+
+
+
+
+.sidebargo{
+    transform:translate(-443px,0px);
+    position: absolute;
+    /* transition: all 3s ease; */
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+     margin-left: 200px;
+     margin-top: 10px;
+}
+@media(max-width: 1615px){
+    .devpic{
+        display: none;
+    }
+    .buttons{
+        font-size: 7px;
+    }
+    .devinfo{
+        font-size: 10px;
+    }
+
+}
+
+
+
+.buttonsm{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: antiquewhite;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+    width: 20em;
+
+}
+.buttonsm:hover{
+    background-color: antiquewhite;
+    color:darkblue;
+}
+
+
+.cvcontainer{
+    width: 1000px;
+    height: 1000px;
+    margin-left: 400px;
+}
+
+
+
+
+
+.cvbuttons{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.cvbuttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: antiquewhite;
+    background-color: darkblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+
+}
+.cvbuttons button:hover{
+    background-color: antiquewhite;
+    color:darkblue;
+}
+
+
+
+marquee{
+    background-color: lightslategray;
+}
+
+.counter-container{
+    width: 75px;
+    height: 100px;
+    
+}
